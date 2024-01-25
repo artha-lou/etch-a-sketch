@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/made-tommy-outline');
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'MADE TOMMY', sans-serif;
+    font-weight: 600;
+    font-size: 24px;    
+    color: black;
+}
+
+#sketchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border: black;
+    margin: auto;
+}
+
+.square {
+    flex: 1 0 20px;
+    margin: 0px;
+    background-color: white;
+    border: .1px solid black;
+    box-sizing: border-box;
+}
