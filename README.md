@@ -1,2 +1,2 @@
 # etch-a-sketch
-https://github.com/artha-lou/etch-a-sketch
+https://artha-lou.github.io/etch-a-sketch/
