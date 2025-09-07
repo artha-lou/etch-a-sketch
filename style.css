@@ -1,32 +1,59 @@
 @import url('https://fonts.cdnfonts.com/css/made-tommy-outline');
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    background-color: #990011;
 }
 
 h1 {
     font-family: 'MADE TOMMY', sans-serif;
     font-weight: 600;
     font-size: 24px;    
-    color: black;
+    color:#FCF6F5;
 }
 
 #sketchContainer {
     display: flex;
     flex-wrap: wrap;
-    width: 320px;
-    height: 320px;
-    border: black;
+    width: 420px;
+    height: 420px;
     margin: auto;
 }
 
 .square {
-    flex: 1 0 20px;
+    flex: 1 0 25px;
     margin: 0px;
     background-color: white;
     border: .1px solid black;
     box-sizing: border-box;
+    transition: background-color .3s;
+}
+
+.square:hover {
+    background-color: black;
+}
+
+.footer {
+    background-color: #990011;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FCF6F5;
+    padding: 8px;
+    font-family: 'MADE TOMMY', sans-serif;
+    bottom: 0;
 }

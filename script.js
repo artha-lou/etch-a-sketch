@@ -6,5 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const square = document.createElement("div");
         square.className = "square";
         sketchContainer.appendChild(square);
-    }
+    
+
+    let isHovered = false;
+
+    square.addEventListener("mouseover", function() {
+        if (!isHovered) {
+            square.style.backgroundColor = "black";
+            isHovered = true;
+        }
+        })
+}
 });
